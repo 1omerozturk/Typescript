@@ -8,9 +8,11 @@ const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
-  <React.StrictMode>
+  <div className='container bg-slate-800 h-screen max-w-full '>
+
     <App />
-  </React.StrictMode>
+  </div>
+    
 );
 
 // If you want to start measuring performance in your app, pass a function

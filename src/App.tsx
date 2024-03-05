@@ -20,10 +20,10 @@ const deleteMessage=(id:number)=>{
 
 console.log("Todos: ",todos)
   return (
-    <div className="App">
-     <h1 className='text-bold'>
-      To - Do Ap      
-      </h1>
+    <div className="App bg-slate-700 h-full w-full ">
+     <div className='text-2xl font-extrabold text-center mb-5'>
+      To - Do App      
+      </div>
       <div>
        <Input addMessage={addMessage} todo={todo} setTodo={setTodo}/>
        <Message deleteMessage={deleteMessage} todos={todos}/>
